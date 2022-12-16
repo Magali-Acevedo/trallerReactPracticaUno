@@ -1,0 +1,55 @@
+.userNavUl {
+    width: 250px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.userNavCircle {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #bdbcc2;
+    border-radius: 50%;
+}
+.userNavCircle div {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #d5b06c;
+    position: relative;
+    left:15px;
+}
+.search {
+    width: 20px;
+}
+.avatarCircle {
+    display: flex;
+    align-items: center;
+}
+.avatarCircle figure{
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.avatarCircle figure img {
+    width: 60px;
+    object-fit: cover;
+    object-position: center;
+}
+.shopping img {
+    width: 25px;
+    
+}
+
+.shopping div {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--color-green);
+    position: relative;
+    top: -30px;
+    left: 20px;
+}

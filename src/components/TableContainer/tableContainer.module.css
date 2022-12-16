@@ -1,0 +1,15 @@
+.tableContainer {
+ width: 100%;
+ 
+}
+thead,
+tbody {
+    width: 1600px;
+}
+.tableTitle {
+    width: 100%;
+    height: 60px;
+    font-size: 14px;
+    color: var(--gris-claro);
+
+}

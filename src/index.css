@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --black:#050505;
+  --white:#f3f5f6;
+  --gris-claro:#57585c;
+  --color-grisMedio:#212329;
+  --color-pink:#e16b8e;
+  --color-blue:#7daae6;
+  --color-green:#63da9e;
+  --color-greenTree:#43715f;
+  --color-yellow:#edc86e;
+  
+}
+html {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: var(--black);
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+.Blue {
+  background-color: var(--color-blue);
+}
+.Pink {
+  background-color: var(--color-pink);
+}
+.Green {
+  background-color: var(--color-green);
+}
+.Yellow {
+  background-color: var(--color-yellow);
+}

@@ -1,0 +1,39 @@
+.filaContainer {
+    padding: 10px 15px;
+    font-size: 16px;
+
+
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: black;
+   
+    
+}
+.detalle, .detalleDate {
+    color: var(--gris-claro);
+    font-size: 14px;
+}
+.transactionIcon {
+    display: flex;
+    
+}
+.transactionIcon figure {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnEstado {
+    padding: 4px 8px;
+    border-radius: 14px;
+    color: var(--color-grisMedio);
+    font-size: 12px;
+    font-weight: bold;
+}
