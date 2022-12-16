@@ -33,7 +33,6 @@
 .transactionsComponent {
     min-height: 300px;
     margin-top: 20px;
-    padding: 12px;
     border-radius: 8px;
     background-color: var(--color-grisMedio);
     color: var(--white);

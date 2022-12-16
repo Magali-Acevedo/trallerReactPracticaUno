@@ -4,8 +4,8 @@ import styles from "./tableContainer.module.css";
 function TableContainer({ children, className }) {
   return (
     <>
-      <section className={clsx(className, styles.tableContainer)}>
-        <thead>
+      <table className={clsx(className, styles.tableContainer)}>
+      
         <tr className={styles.tableTitle}>
           <td></td>
           <td>Type</td>
@@ -15,12 +15,12 @@ function TableContainer({ children, className }) {
           <td>Status ⇵</td>
           <td>Expect Payment</td>
         </tr>
-        </thead>
-        <tbody>
-        {children}
-        </tbody>
+        
       
-      </section>
+        {children}
+       
+      
+      </table>
     </>
   );
 }

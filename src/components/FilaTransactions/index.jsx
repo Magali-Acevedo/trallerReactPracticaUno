@@ -22,7 +22,7 @@ function filaContainers({
   return (
     <>
       <tr className={styles.filaContainer}>
-        <td>
+        <td className={styles.filaCheckbox}>
         <figure className={styles.checkbox}>
           <img src={check} alt="chek" width={18}/>
         </figure>
