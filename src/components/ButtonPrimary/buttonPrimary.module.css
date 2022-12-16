@@ -1,0 +1,10 @@
+.buttonPrimary{
+    width: 80%;
+    height: 50px;
+    margin-top:30px;
+    background-color: var(--color-green);
+    color:var(--color-grisMedio);
+    font-weight: bold;
+    border-radius: 6px;
+    
+}

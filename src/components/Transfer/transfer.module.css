@@ -1,0 +1,31 @@
+.transferContainer {
+    padding: 40px 25px 10px 25px;
+}
+.headCashOut {
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+    font-weight: bolder;
+}
+.headCashOut figure {
+    width: 30px;
+    height: 30px;
+    background-color: var(--black);
+    opacity: 0.6;
+    border-radius: 4px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formCashOut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linkCashOut {
+    font-size: 10px;
+    padding-top: 10px;
+    text-decoration: underline;
+    color: var(--gris-claro);
+    text-align: center;
+}

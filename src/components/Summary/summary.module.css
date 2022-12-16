@@ -1,0 +1,61 @@
+.summaryContainer {
+    padding: 0 60px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.summaryContainer select {
+    font-size: 25px;
+    background-color: transparent;
+    border:0;
+    outline: none;
+    color: var(--white);
+}
+
+.transactions p,
+.joined p ,
+.earnings p {
+    color: var(--gris-claro);
+    font-size: 14px;
+}
+
+.avatars {
+    display: flex;
+}
+.avatars figure {
+    background-color: bisque;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: -6px;
+    overflow: hidden;
+}
+.avatars figure img {
+    width: 60px;
+    
+    
+    
+}
+.summaryContainer .avatarsCant {
+    background-color: var(--color-green);
+    text-align: center;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transactions span, 
+.earnings span {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white) ;
+}
+
+.transactions,
+.joined {
+    border-right: 1px solid rgb(46, 46, 46);
+    padding-right: 20px;
+}
