@@ -2,7 +2,6 @@ import style from "./userNav.module.css";
 
 //img
 import avatar from "../assets/avatarFem.jpg";
-import search from "../assets/searchpeq.svg";
 import shopping from "../assets/bolsaDeCompras.png";
 import arrow from "../assets/arrow.png";
 
