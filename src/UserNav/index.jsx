@@ -14,7 +14,7 @@ function UserNav () {
                 <div></div>
             </li>
             <li className={style.search}>
-                <img src={search} alt="search" />
+            <img width="30" src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/ffffff/external-search-twitter-flatart-icons-outline-flatarticons.png" alt="external-search-twitter-flatart-icons-outline-flatarticons"/>
             </li>
             <li className={style.shopping}>
                 <img src={shopping} alt="Bolsa de compras" /> 
